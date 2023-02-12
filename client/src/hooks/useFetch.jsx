@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// create the .env file and set your own giphy api key
 const APIKEY = import.meta.env.VITE_GIPHY_API;
 
 const useFetch = ({ keyword }) => {

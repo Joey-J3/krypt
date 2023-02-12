@@ -27,7 +27,7 @@ const Welcome = () => {
     const { addressTo, amount, keyword, message } = formData;
 
     e.preventDefault();
-
+    console.log(formData);
     if (!addressTo || !amount || !keyword || !message) return;
 
     sendTransaction();
